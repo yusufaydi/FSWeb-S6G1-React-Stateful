@@ -1,0 +1,33 @@
+{
+  "name": "fsweb-s6g1-react-stateful",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "cypress open"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "eslint": "^8.10.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-react": "^7.29.2",
+    "less": "^4.1.2",
+    "parcel-bundler": "^1.8.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Workintech/FSWeb-S6G1-react-stateful.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Workintech/FSWeb-S6G1-react-stateful/issues"
+  },
+  "homepage": "https://github.com/Workintech/FSWeb-S6G1-react-stateful#readme"
+}
