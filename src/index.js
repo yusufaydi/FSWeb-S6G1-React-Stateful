@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from "react-dom/client";
 
 import Sayac from './components/Sayac';
 import Input from './components/Input';
@@ -8,15 +8,14 @@ import Dondurucu from './components/Dondurucu';
 import Kareler from './components/Kareler';
 import Programcilar from './components/Programcilar';
 
-render(
-  <>
-    <Sayac />
-    <RuhHalleri />
-    <Dondurucu />
-    <Input />
-    <Kareler />
-    <Programcilar />
-  </>
-  ,
-  document.querySelector('#root')
-);
+
+const container = document.getElementById("root");
+const root = createRoot(container)
+root.render(<>
+  <Sayac />
+  <RuhHalleri />
+  <Dondurucu />
+  <Input />
+  <Kareler />
+  <Programcilar />
+</>);
