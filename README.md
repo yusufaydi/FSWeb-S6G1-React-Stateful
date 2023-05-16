@@ -22,9 +22,8 @@ Bu proje `src/components` klasörü içinde bir kaç React bileşeni(component) 
 - [ ] Projeyi forklayarak bir kopyasını oluşturun.
 - [ ] Terminali kullanarak kendi forkunuzu klonlayın. 
 - [ ] Projenin ana klasörüne gidin.
-- [ ] `npm install` komutunu kullanarak projenin dependencylerini indirin. 
-NOT: kurulumdan sonra vulnerability bulursa audit yapmak yerine *sadece bu proje için* `npm install --no-audit` komutuyla yükleme yapın.
-Eğer kurulumda hata alırsanız, v16.20.0'a [bütün sisteminize sıfırdan yükleme yaparak](https://nodejs.org/en/blog/release/v16.20.0) veya [NVM - "Node Version Manager"](https://github.com/nvm-sh/nvm) kullanarak node versiyonunuzu geri çekmenizi tavsiye ederiz. Bunu kullanırken NVM metodunda biraz zorlanmanız normaldir. Yine de yapabilirseniz, geliştirme ortamı kurulumunda, kariyerinizde karşılaşabileceğiniz en zor adımlardan birini tamamlamış olacaksınız.
+- [ ] `npm install` komutunu kullanarak projenin dependencylerini indirin.  
+NOT: Tavsiye edilen `node version 18` ile kurulum yapabilirsiniz.
 - [ ] `npm start` komutuyla projeyi başlatın.
 - [ ] `npm test` komutuyla projeyi test edebilirsiniz. (uygulamanın `http://localhost:1234` 'da çalışıyor halde olması lazım)
 - [ ] Commitinizi pushlayın: `git push origin main`.
