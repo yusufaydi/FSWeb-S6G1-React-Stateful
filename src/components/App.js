@@ -12,12 +12,10 @@ function App() {
     <>
       <Sayac />
       <Input />
-      {/*
-        <RuhHalleri />
-        <Dondurucu />
-        <Kareler />
-        <Programcilar />
-        */}
+      <Dondurucu />
+      <RuhHalleri />
+      <Kareler />
+      <Programcilar />
     </>
   );
 }
